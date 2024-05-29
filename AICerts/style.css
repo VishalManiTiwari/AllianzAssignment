@@ -1,0 +1,223 @@
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+#countdown{
+  color: rgb(157, 255, 0);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.banner {
+  background-color: #7f5df0;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.about {
+  background-color: #efb174; 
+  padding: 2rem;
+}
+
+.about-event {
+  text-align: center;
+}
+
+.schedule{
+  text-align: center;
+  background-color: #e7b750;
+}
+
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid #ea0d0d;
+  background-color: #e7b750;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #c15555;
+}
+
+.tab button.active {
+  background-color: #c15555;
+}
+
+.tabcontent {
+  display: none;
+  padding: 20px;
+  border-top: none;
+}
+
+.event {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.speakers {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #e6b13f;
+  color: rgba(0, 0, 0, 0.795);
+  padding: 12px;
+}
+.venue{
+  background-color: #e6b13f;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.795);
+}
+.feature-speaker {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.feature {
+  text-align: center;
+}
+
+.speaker {
+  text-align: center;
+  margin: 20px;
+}
+
+.speaker img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.venue-h {
+  text-align: center;
+}
+
+.sponsors {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  background-color: #ecac21;
+  color: rgba(0, 0, 0, 0.795);
+}
+
+
+.sponsor-p {
+  margin-bottom: 10px;
+}
+
+.company-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.company-list li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.contact {
+  background-color: #db8f89;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact p {
+  margin-bottom: 10px;
+}
+
+.faq {
+  background-color: #ca5151a8;
+  padding: 20px;
+  text-align: center;
+}
+
+.faq ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-media {
+  background-color: #c26767db;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-media ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
